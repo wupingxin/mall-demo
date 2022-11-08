@@ -120,6 +120,8 @@ export default defineComponent({
     width: 100%;
     /* 百分百占满屏幕 */
     height: 100vh;
+    display: flex;
+    align-items: center;
     background-image: url("../assets/bg.jpg");
   }
 
@@ -129,7 +131,6 @@ export default defineComponent({
     margin: 0 auto;
     background-color: white;
     position: relative;
-    top:300px;
     border-radius: 10px;
   }
 
